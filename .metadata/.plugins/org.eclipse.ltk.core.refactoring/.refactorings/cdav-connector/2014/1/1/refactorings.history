@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DavStore.java&apos; to &apos;cdav-connectorCNET/src/it.cnet.connection.core&apos;&#x0A;- Original project: &apos;cdav-connector&apos;&#x0A;- Destination element: &apos;cdav-connectorCNET/src/it.cnet.connection.core&apos;&#x0A;- Original element: &apos;zswi.protocols.communication.core.DavStore.java&apos;" description="Copy compilation unit" destination="=cdav-connectorCNET/src&lt;it.cnet.connection.core" element1="/src&lt;zswi.protocols.communication.core{DavStore.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1388676614532" units="1" version="1.0"/>
+</session>
