@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;cdav-connector_CNET&apos;" deleteContents="true" description="Delete resource &apos;cdav-connector_CNET&apos;" element1="/cdav-connector_CNET" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1389215120025"/>&#x0A;<refactoring comment="Rename resource &apos;cdav-connector_CNET2&apos; to &apos;cdav-connector_CNET&apos;" description="Rename resource &apos;cdav-connector_CNET2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/cdav-connector_CNET2" name="cdav-connector_CNET" stamp="1389215129949" updateReferences="true"/>
+</session>

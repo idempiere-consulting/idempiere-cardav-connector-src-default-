@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/308abb527f7300131e23dce4b5532295=308abb527f7300131e23dce4b5532295;http\://caldav4j.googlecode.com/svn;http\://caldav4j.googlecode.com/svn;branches;tags;trunk;true;92f3e887-6b3d-0410-b960-6bf569049b56;http\://caldav4j.googlecode.com/svn;;false;;;0
+repositories/70996dcc8b7300131e23dce4b5532295=70996dcc8b7300131e23dce4b5532295;https\://github.com/Kerio/cdav-connector;https\://github.com/Kerio/cdav-connector;branches;tags;trunk;true;3fe64034-4213-b216-15c7-ce57b7db7bff;https\://github.com/Kerio/cdav-connector;;false;;;0

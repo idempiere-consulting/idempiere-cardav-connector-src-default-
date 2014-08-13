@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CalDav_Connect.java&apos; to &apos;cdav-connector_CNET/src/it.cnet.connection.core&apos;&#x0A;- Original project: &apos;cdav-connector_CNET&apos;&#x0A;- Destination element: &apos;cdav-connector_CNET/src/it.cnet.connection.core&apos;&#x0A;- Original element: &apos;it.cnet.connection.core.CalDav_Connect.java&apos;" description="Copy compilation unit" destination="/src&lt;it.cnet.connection.core" element1="/src&lt;it.cnet.connection.core{CalDav_Connect.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1390202868663" units="1" version="1.0"/>
+</session>
