@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><md:materialization xmlns:md="http://www.eclipse.org/buckminster/MetaData-1.0" location="/opt/repos/idempiere-cardav-connector/caldav4j-read-only/" name="caldav4j-read-only" componentType="maven"/>

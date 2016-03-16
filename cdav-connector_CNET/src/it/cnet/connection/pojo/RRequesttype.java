@@ -18,75 +18,75 @@ public class RRequesttype implements Serializable {
 
 	@Id
 	@Column(name="r_requesttype_id")
-	private long rRequesttypeId;
+	private long rRequesttypeId;//OK
 
 	@Column(name="ad_client_id")
-	private BigDecimal adClientId;
+	private BigDecimal adClientId;//OK
 
 	@Column(name="ad_org_id")
-	private BigDecimal adOrgId;
+	private BigDecimal adOrgId;//OK
 
-	private BigDecimal autoduedatedays;
+	private BigDecimal autoduedatedays;//OK
 
 	private String calendar;
 
-	private String confidentialtype;
+	private String confidentialtype;//OK
 
-	private String contentcolor;
+	private String contentcolor;//OK
 
-	private Timestamp created;
+	private Timestamp created;//OK
 
-	private BigDecimal createdby;
+	private BigDecimal createdby;//OK
 
-	private String description;
+	private String description;//OK
 
-	private BigDecimal duedatetolerance;
+	private BigDecimal duedatetolerance;//OK
 
 	private Timestamp endtime;
 
-	private String headercolor;
+	private String headercolor;//OK
 
-	private String isactive;
+	private String isactive;//OK
 
-	private String isautochangerequest;
+	private String isautochangerequest;//OK
 
-	private String isconfidentialinfo;
+	private String isconfidentialinfo;//OK
 
-	private String isdefault;
+	private String isdefault;//OK
 
-	private String isemailwhendue;
+	private String isemailwhendue;//OK
 
-	private String isemailwhenoverdue;
+	private String isemailwhenoverdue;//OK
 
 	private String isexcludesaturday;
 
 	private String isexcludesunday;
 
-	private String isindexed;
+	private String isindexed;//OK
 
-	private String isinvoiced;
+	private String isinvoiced;//OK
 
 	private String isnobusinessday;
 
-	private String isselfservice;
+	private String isselfservice;//OK
 
 	private BigDecimal maxtimeminute;
 
 	private BigDecimal minuterounde;
 
-	private String name;
+	private String name;//OK
 
 	@Column(name="r_requesttype_uu")
-	private String rRequesttypeUu;
+	private String rRequesttypeUu;//OK
 
 	@Column(name="r_statuscategory_id")
-	private BigDecimal rStatuscategoryId;
+	private BigDecimal rStatuscategoryId;//OK
 
 	private Timestamp starttime;
 
-	private Timestamp updated;
+	private Timestamp updated;//OK
 
-	private BigDecimal updatedby;
+	private BigDecimal updatedby;//OK
 
 	//bi-directional many-to-one association to AdCaldavparam
 	@OneToMany(mappedBy="RRequesttype")
