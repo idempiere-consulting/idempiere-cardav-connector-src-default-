@@ -20,156 +20,156 @@ public class RRequest implements Serializable {
 	private long rRequestId;
 
 	@Column(name="a_asset_id")
-	private BigDecimal aAssetId;
+	private BigDecimal aAssetId;//OK
 
 	@Column(name="ad_client_id")
-	private BigDecimal adClientId;
+	private BigDecimal adClientId;//OK
 
 	@Column(name="ad_org_id")
-	private BigDecimal adOrgId;
+	private BigDecimal adOrgId;//OK
 
 	@Column(name="ad_role_id")
-	private BigDecimal adRoleId;
+	private BigDecimal adRoleId;//OK
 
 	@Column(name="ad_table_id")
-	private BigDecimal adTableId;
+	private BigDecimal adTableId;//OK
 
 	@Column(name="c_activity_id")
-	private BigDecimal cActivityId;
+	private BigDecimal cActivityId;//OK
 
 	@Column(name="c_bpartner_id")
-	private BigDecimal cBpartnerId;
+	private BigDecimal cBpartnerId;//OK
 
 	@Column(name="c_campaign_id")
-	private BigDecimal cCampaignId;
+	private BigDecimal cCampaignId;//OK
 
 	@Column(name="c_invoice_id")
-	private BigDecimal cInvoiceId;
+	private BigDecimal cInvoiceId;//OK
 
 	@Column(name="c_invoicerequest_id")
-	private BigDecimal cInvoicerequestId;
+	private BigDecimal cInvoicerequestId;//OK
 
 	@Column(name="c_order_id")
-	private BigDecimal cOrderId;
+	private BigDecimal cOrderId;//OK
 
 	@Column(name="c_payment_id")
-	private BigDecimal cPaymentId;
+	private BigDecimal cPaymentId;//OK
 
 	@Column(name="c_project_id")
-	private BigDecimal cProjectId;
+	private BigDecimal cProjectId;//OK
 
-	private Timestamp closedate;
+	private Timestamp closedate;//OK
 
-	private String confidentialtype;
+	private String confidentialtype;//OK
 
-	private String confidentialtypeentry;
+	private String confidentialtypeentry;//OK
 
-	private Timestamp created;
+	private Timestamp created;//OK
 
-	private BigDecimal createdby;
+	private BigDecimal createdby;//OK
 
-	private Timestamp datecompleteplan;
+	private Timestamp datecompleteplan;//OK
 
-	private Timestamp datelastaction;
+	private Timestamp datelastaction;//OK
 
-	private Timestamp datelastalert;
+	private Timestamp datelastalert;//OK
 
-	private Timestamp datenextaction;
+	private Timestamp datenextaction;//OK
 
-	private Timestamp datestartplan;
+	private Timestamp datestartplan;//OK
 
-	private String documentno;
+	private String documentno;//OK
 
-	private String duetype;
+	private String duetype;//OK
 
-	private Timestamp endtime;
+	private Timestamp endtime;//OK
 
-	private String isactive;
+	private String isactive;//OK
 
-	private String isescalated;
+	private String isescalated;//OK
 
-	private String isinvoiced;
+	private String isinvoiced;//OK
 
-	private String isselfservice;
+	private String isselfservice;//OK
 
-	private String lastresult;
+	private String lastresult;//OK
 
 	@Column(name="m_changerequest_id")
-	private BigDecimal mChangerequestId;
+	private BigDecimal mChangerequestId;//OK
 
 	@Column(name="m_fixchangenotice_id")
-	private BigDecimal mFixchangenoticeId;
+	private BigDecimal mFixchangenoticeId;//OK
 
 	@Column(name="m_inout_id")
-	private BigDecimal mInoutId;
+	private BigDecimal mInoutId;//OK
 
 	@Column(name="m_product_id")
-	private BigDecimal mProductId;
+	private BigDecimal mProductId;//OK
 
 	@Column(name="m_productspent_id")
-	private BigDecimal mProductspentId;
+	private BigDecimal mProductspentId;//OK
 
 	@Column(name="m_rma_id")
-	private BigDecimal mRmaId;
+	private BigDecimal mRmaId;//OK
 
-	private String nextaction;
+	private String nextaction;//OK
 
-	private String priority;
+	private String priority;//OK
 
-	private String priorityuser;
+	private String priorityuser;//OK
 
-	private String processed;
+	private String processed;//OK
 
-	private BigDecimal qtyinvoiced;
+	private BigDecimal qtyinvoiced;//OK
 
-	private BigDecimal qtyplan;
+	private BigDecimal qtyplan;//OK
 
-	private BigDecimal qtyspent;
+	private BigDecimal qtyspent;//OK
 
 	@Column(name="r_category_id")
-	private BigDecimal rCategoryId;
+	private BigDecimal rCategoryId;//OK
 
 	@Column(name="r_group_id")
-	private BigDecimal rGroupId;
+	private BigDecimal rGroupId;//OK
 
 	@Column(name="r_mailtext_id")
-	private BigDecimal rMailtextId;
+	private BigDecimal rMailtextId;//OK
 
 	@Column(name="r_request_sync")
 	private String rRequestSync;
 
 	@Column(name="r_request_uu")
-	private String rRequestUu;
+	private String rRequestUu;//OK
 
 	@Column(name="r_requestrelated_id")
-	private BigDecimal rRequestrelatedId;
+	private BigDecimal rRequestrelatedId;//OK
 
 	@Column(name="r_resolution_id")
-	private BigDecimal rResolutionId;
+	private BigDecimal rResolutionId;//OK
 
 	@Column(name="r_standardresponse_id")
-	private BigDecimal rStandardresponseId;
+	private BigDecimal rStandardresponseId;//OK
 
 	@Column(name="r_status_id")
-	private BigDecimal rStatusId;
+	private BigDecimal rStatusId;//OK
 
 	@Column(name="record_id")
-	private BigDecimal recordId;
+	private BigDecimal recordId;//OK
 
-	private BigDecimal requestamt;
+	private BigDecimal requestamt;//OK
 
-	private String result;
+	private String result;//OK
 
 	@Column(name="salesrep_id")
-	private BigDecimal salesrepId;
+	private BigDecimal salesrepId;//OK
 
-	private Timestamp startdate;
+	private Timestamp startdate;//OK
 
-	private Timestamp starttime;
+	private Timestamp starttime;//OK
 
-	private String summary;
+	private String summary;//OK
 
-	private String taskstatus;
+	private String taskstatus;//OK
 
 	private Timestamp updated;
 
@@ -178,12 +178,12 @@ public class RRequest implements Serializable {
 	//bi-directional many-to-one association to AdUser
     @ManyToOne
 	@JoinColumn(name="ad_user_id")
-	private AdUser adUser;
+	private AdUser adUser;//OK
 
 	//bi-directional many-to-one association to RRequesttype
     @ManyToOne
 	@JoinColumn(name="r_requesttype_id")
-	private RRequesttype RRequesttype;
+	private RRequesttype RRequesttype;//OK
 
     public RRequest() {
     }

@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=caldav4j-read-only/src\/test\/java&lt;org.osaf.caldav4j.credential{CaldavCredential.java[CaldavCredential" modifiers="1" timestamp="1388486783000"/>
-<typeInfo handle="=caldav4j-read-only/\/home\/andrea\/.m2\/repository\/org\/mnode\/ical4j\/ical4j\/1.0.3\/ical4j-1.0.3.jar&lt;net.fortuna.ical4j.model.property(Description.class[Description" modifiers="33" timestamp="1388647419000"/>
-<typeInfo handle="=cdav-connector/test&lt;zswi.protocols.caldav{CalendarsGetterTest.java[CalendarsGetterTest" modifiers="1" timestamp="1389198022000"/>
-<typeInfo handle="=cdav-connector_CNET/src&lt;it.cnet.connection.pojo{AdUser.java[AdUser" modifiers="1" timestamp="1389348433000"/>
-<typeInfo handle="=cdav-connector/src&lt;zswi.schemas.carddav.allprop{AddressDataType.java[AddressDataType" modifiers="1" timestamp="1388652930000"/>
-<typeInfo handle="=cdav-connector/\/home\/andrea\/.m2\/repository\/net\/sourceforge\/cardme\/cardme\/0.3.6.03\/cardme-0.3.6.03.jar&lt;net.sourceforge.cardme.vcard.features(AddressFeature.class[AddressFeature" modifiers="1537" timestamp="1388653182000"/>
-<typeInfo handle="=cdav-connector/src&lt;zswi.protocols.communication.core{DavStore.java[DavStore" modifiers="1" timestamp="1389175805000"/>
-<typeInfo handle="=cdav-connector/\/home\/andrea\/.m2\/repository\/net\/sourceforge\/cardme\/cardme\/0.3.6.03\/cardme-0.3.6.03.jar&lt;net.sourceforge.cardme.engine(VCardLine.class[VCardLine" modifiers="33" timestamp="1388653182000"/>
+<typeInfo handle="=cdav-connector_CNET/src&lt;it.cnet.connection.pojo{AdUser.java[AdUser" modifiers="1" timestamp="1457514367000"/>
 </typeInfoHistroy>

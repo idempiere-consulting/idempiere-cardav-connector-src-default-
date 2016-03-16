@@ -18,157 +18,157 @@ public class AdUser implements Serializable {
 
 	@Id
 	@Column(name="ad_user_id")
-	private long adUserId;
+	private long adUserId;//OK
 
 	@Column(name="ad_client_id")
-	private BigDecimal adClientId;
+	private BigDecimal adClientId;//OK
 
 	@Column(name="ad_org_id")
-	private BigDecimal adOrgId;
+	private BigDecimal adOrgId;//OK
 
 	@Column(name="ad_orgtrx_id")
-	private BigDecimal adOrgtrxId;
+	private BigDecimal adOrgtrxId;//OK
 
 	@Column(name="ad_user_uu")
-	private String adUserUu;
+	private String adUserUu;//OK
 
-	private String answer;
+	private String answer;//OK
 
 	private String birthcity;
 
-	private Timestamp birthday;
+	private Timestamp birthday;//OK
 
 	@Column(name="bp_location_id")
-	private BigDecimal bpLocationId;
+	private BigDecimal bpLocationId;//OK
 
-	private String bpname;
+	private String bpname;//OK
 
 	@Column(name="c_bpartner_id")
-	private BigDecimal cBpartnerId;
+	private BigDecimal cBpartnerId;//OK
 
 	@Column(name="c_bpartner_location_id")
-	private BigDecimal cBpartnerLocationId;
+	private BigDecimal cBpartnerLocationId;//OK
 
 	@Column(name="c_campaign_id")
-	private BigDecimal cCampaignId;
+	private BigDecimal cCampaignId;//OK
 
 	@Column(name="c_greeting_id")
-	private BigDecimal cGreetingId;
+	private BigDecimal cGreetingId;//OK
 
 	@Column(name="c_job_id")
-	private BigDecimal cJobId;
+	private BigDecimal cJobId;//OK
 
 	@Column(name="c_location_id")
-	private BigDecimal cLocationId;
+	private BigDecimal cLocationId;//OK
 
 	private String caldavpath;
 
 	private String cardavpath;
 
-	private String comments;
+	private String comments;//OK
 
-	private String connectionprofile;
+	private String connectionprofile;//OK
 
-	private Timestamp created;
+	private Timestamp created;//OK
 
-	private BigDecimal createdby;
+	private BigDecimal createdby;//OK
 
-	private Timestamp dateaccountlocked;
+	private Timestamp dateaccountlocked;//OK
 
-	private Timestamp datelastlogin;
+	private Timestamp datelastlogin;//OK
 
-	private Timestamp datepasswordchanged;
+	private Timestamp datepasswordchanged;//OK
 
-	private String description;
+	private String description;//OK
 
-	private String email;
+	private String email;//OK
 
-	private String emailuser;
+	private String emailuser;//OK
 
-	private String emailuserpw;
+	private String emailuserpw;//OK
 
-	private String emailverify;
+	private String emailverify;//OK
 
-	private Timestamp emailverifydate;
+	private Timestamp emailverifydate;//OK
 
-	private BigDecimal failedlogincount;
+	private BigDecimal failedlogincount;//OK
 
-	private String fax;
+	private String fax;//OK
 
-	private String isactive;
+	private String isactive;//OK
 
-	private String isexpired;
+	private String isexpired;//OK
 
-	private String isfullbpaccess;
+	private String isfullbpaccess;//OK
 
-	private String isinpayroll;
+	private String isinpayroll;//OK
 
 	private String islegaluser;
 
-	private String islocked;
+	private String islocked;//OK
 
-	private String ismenuautoexpand;
+	private String ismenuautoexpand;//OK
 
-	private String isnopasswordreset;
+	private String isnopasswordreset;//OK
 
-	private String issaleslead;
+	private String issaleslead;//OK
 
-	private Timestamp lastcontact;
+	private Timestamp lastcontact;//OK
 
-	private String lastresult;
+	private String lastresult;//OK
 
-	private String ldapuser;
+	private String ldapuser;//OK
 
-	private String leadsource;
+	private String leadsource;//OK
 
-	private String leadsourcedescription;
+	private String leadsourcedescription;//OK
 
-	private String leadstatus;
+	private String leadstatus;//OK
 
-	private String leadstatusdescription;
+	private String leadstatusdescription;//OK
 
-	private String name;
+	private String name;//OK
 
-	private String notificationtype;
+	private String notificationtype;//OK
 
-	private String password;
+	private String password;//OK
 
 	private String passwordxdav;
 
-	private String phone;
+	private String phone;//OK
 
-	private String phone2;
+	private String phone2;//OK
 
-	private String processing;
+	private String processing;//OK
 
 	@Column(name="resource_product")
 	private String resourceProduct;
 
 	@Column(name="salesrep_id")
-	private BigDecimal salesrepId;
+	private BigDecimal salesrepId;//OK
 
-	private String salt;
+	private String salt;//OK
 
-	private String securityquestion;
+	private String securityquestion;//OK
 
 	private String sex;
 
 	@Column(name="supervisor_id")
-	private BigDecimal supervisorId;
+	private BigDecimal supervisorId;//OK
 
 	private String surname;
 
-	private String title;
+	private String title;//OK
 
-	private Timestamp updated;
+	private Timestamp updated;//OK
 
-	private BigDecimal updatedby;
+	private BigDecimal updatedby;//OK
 
 	private String usernamexdav;
 
-	private String userpin;
+	private String userpin;//OK
 
-	private String value;
+	private String value;//OK
 
 	//bi-directional many-to-one association to AdCaldavparam
 	@OneToMany(mappedBy="adUser")
